@@ -13,7 +13,8 @@ def main():
     for i in range(len(content_list)):
         content_list[i] = content_list[i].split()
         content_list[i][1] = int(content_list[i][1])
-    
+
+        
     #Update the position
     for i in range(len(content_list)):
         if content_list[i][0] == 'forward':
